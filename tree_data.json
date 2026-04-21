@@ -1,0 +1,7660 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Start\nB.Tech CS",
+      "shape": "box",
+      "color": "#17a2b8",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 1,
+      "label": "Schedule:\nOSL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 2,
+      "label": "Monday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Schedule:\nOSL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 4,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 5,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 6,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 7,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 8,
+      "label": "Tuesday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 9,
+      "label": "Schedule:\nDAAL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 10,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 11,
+      "label": "Monday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 12,
+      "label": "Schedule:\nDAAL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 13,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 14,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 15,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 16,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 17,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 18,
+      "label": "Tuesday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 19,
+      "label": "Schedule:\nSEL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 20,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 21,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 22,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 23,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 24,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 25,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 26,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 27,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 28,
+      "label": "Wednesday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 29,
+      "label": "Schedule:\nSEL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 30,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 31,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 32,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 33,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 34,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 35,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 36,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 37,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 38,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 39,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 40,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 41,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 42,
+      "label": "Thursday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 43,
+      "label": "Schedule:\nCMDL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 44,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 45,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 46,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 47,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 48,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 49,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 50,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 51,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 52,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 53,
+      "label": "Wednesday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 54,
+      "label": "Schedule:\nCMDL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 55,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 56,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 57,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 58,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 59,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 60,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 61,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 62,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 63,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 64,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 65,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 66,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 67,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 68,
+      "label": "Thursday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 69,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 70,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 71,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 72,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 73,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 74,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 75,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 76,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 77,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 78,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 79,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 80,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 81,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 82,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 83,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 84,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 85,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 86,
+      "label": "Friday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 87,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 88,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 89,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 90,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 91,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 92,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 93,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 94,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 95,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 96,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 97,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 98,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 99,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 100,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 101,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 102,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 103,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 104,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 105,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 106,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 107,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 108,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 109,
+      "label": "Friday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 110,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 111,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 112,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 113,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 114,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 115,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 116,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 117,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 118,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 119,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 120,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 121,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 122,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 123,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 124,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 125,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 126,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 127,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 128,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 129,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 130,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 131,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 132,
+      "label": "Friday\n13:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 133,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 134,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 135,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 136,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 137,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 138,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 139,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 140,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 141,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 142,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 143,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 144,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 145,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 146,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 147,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 148,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 149,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 150,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 151,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 152,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 153,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 154,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 155,
+      "label": "Friday\n15:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 156,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 157,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 158,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 159,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 160,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 161,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 162,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 163,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 164,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 165,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 166,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 167,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 168,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 169,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 170,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 171,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 172,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 173,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 174,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 175,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 176,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 177,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 178,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 179,
+      "label": "Thursday\n13:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 180,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 181,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 182,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 183,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 184,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 185,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 186,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 187,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 188,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 189,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 190,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 191,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 192,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 193,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 194,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 195,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 196,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 197,
+      "label": "Friday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 198,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 199,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 200,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 201,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 202,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 203,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 204,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 205,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 206,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 207,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 208,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 209,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 210,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 211,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 212,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 213,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 214,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 215,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 216,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 217,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 218,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 219,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 220,
+      "label": "Friday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 221,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 222,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 223,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 224,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 225,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 226,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 227,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 228,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 229,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 230,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 231,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 232,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 233,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 234,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 235,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 236,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 237,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 238,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 239,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 240,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 241,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 242,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 243,
+      "label": "Friday\n13:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 244,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 245,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 246,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 247,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 248,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 249,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 250,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 251,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 252,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 253,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 254,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 255,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 256,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 257,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 258,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 259,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 260,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 261,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 262,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 263,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 264,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 265,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 266,
+      "label": "Friday\n15:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 267,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 268,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 269,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 270,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 271,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 272,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 273,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 274,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 275,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 276,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 277,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 278,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 279,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 280,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 281,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 282,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 283,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 284,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 285,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 286,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 287,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 288,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 289,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 290,
+      "label": "Thursday\n15:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 291,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 292,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 293,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 294,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 295,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 296,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 297,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 298,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 299,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 300,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 301,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 302,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 303,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 304,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 305,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 306,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 307,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 308,
+      "label": "Friday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 309,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 310,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 311,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 312,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 313,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 314,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 315,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 316,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 317,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 318,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 319,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 320,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 321,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 322,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 323,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 324,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 325,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 326,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 327,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 328,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 329,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 330,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 331,
+      "label": "Friday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 332,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 333,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 334,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 335,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 336,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 337,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 338,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 339,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 340,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 341,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 342,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 343,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 344,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 345,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 346,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 347,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 348,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 349,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 350,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 351,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 352,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 353,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 354,
+      "label": "Friday\n13:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 355,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 356,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 357,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 358,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 359,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 360,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 361,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 362,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 363,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 364,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 365,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 366,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 367,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 368,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 369,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 370,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 371,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 372,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 373,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 374,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 375,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 376,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 377,
+      "label": "Friday\n15:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 378,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 379,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 380,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 381,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 382,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 383,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 384,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 385,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 386,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 387,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 388,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 389,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 390,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 391,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 392,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 393,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 394,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 395,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 396,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 397,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 398,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 399,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 400,
+      "label": "Backtracked!\nDead end",
+      "color": "#fd7e14",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 401,
+      "label": "Friday\n08:00-10:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 402,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 403,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 404,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 405,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 406,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 407,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 408,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 409,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 410,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 411,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 412,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 413,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 414,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 415,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 416,
+      "label": "Thursday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 417,
+      "label": "Schedule:\nUIL (Lab)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 418,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 419,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 420,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 421,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 422,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 423,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 424,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 425,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 426,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 427,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 428,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 429,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 430,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 431,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 432,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 433,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 434,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 435,
+      "label": "Friday\n10:00-12:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 436,
+      "label": "Schedule:\nOS (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 437,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 438,
+      "label": "Conflict\nMonday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 439,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 440,
+      "label": "Conflict\nMonday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 441,
+      "label": "Monday\n13:00-14:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 442,
+      "label": "Schedule:\nOS (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 443,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 444,
+      "label": "Conflict\nTuesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 445,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 446,
+      "label": "Conflict\nTuesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 447,
+      "label": "Tuesday\n13:00-14:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 448,
+      "label": "Schedule:\nOS (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 449,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 450,
+      "label": "Conflict\nWednesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 451,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 452,
+      "label": "Conflict\nWednesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 453,
+      "label": "Wednesday\n13:00-14:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 454,
+      "label": "Schedule:\nOS (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 455,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 456,
+      "label": "Conflict\nThursday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 457,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 458,
+      "label": "Conflict\nThursday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 459,
+      "label": "Thursday\n13:00-14:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 460,
+      "label": "Schedule:\nDAA (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 461,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 462,
+      "label": "Conflict\nFriday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 463,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 464,
+      "label": "Conflict\nFriday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 465,
+      "label": "Friday\n13:00-14:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 466,
+      "label": "Schedule:\nDAA (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 467,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 468,
+      "label": "Conflict\nMonday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 469,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 470,
+      "label": "Conflict\nMonday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 471,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 472,
+      "label": "Monday\n14:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 473,
+      "label": "Schedule:\nDAA (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 474,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 475,
+      "label": "Conflict\nTuesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 476,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 477,
+      "label": "Conflict\nTuesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 478,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 479,
+      "label": "Tuesday\n14:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 480,
+      "label": "Schedule:\nDAA (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 481,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 482,
+      "label": "Conflict\nWednesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 483,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 484,
+      "label": "Conflict\nWednesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 485,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 486,
+      "label": "Wednesday\n14:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 487,
+      "label": "Schedule:\nSE (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 488,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 489,
+      "label": "Conflict\nThursday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 490,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 491,
+      "label": "Conflict\nThursday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 492,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 493,
+      "label": "Thursday\n14:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 494,
+      "label": "Schedule:\nSE (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 495,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 496,
+      "label": "Conflict\nFriday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 497,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 498,
+      "label": "Conflict\nFriday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 499,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 500,
+      "label": "Friday\n14:00-15:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 501,
+      "label": "Schedule:\nSE (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 502,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 503,
+      "label": "Conflict\nMonday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 504,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 505,
+      "label": "Conflict\nMonday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 506,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 507,
+      "label": "Conflict\nMonday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 508,
+      "label": "Monday\n15:00-16:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 509,
+      "label": "Schedule:\nSE (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 510,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 511,
+      "label": "Conflict\nTuesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 512,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 513,
+      "label": "Conflict\nTuesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 514,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 515,
+      "label": "Conflict\nTuesday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 516,
+      "label": "Tuesday\n15:00-16:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 517,
+      "label": "Schedule:\nCMD (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 518,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 519,
+      "label": "Conflict\nWednesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 520,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 521,
+      "label": "Conflict\nWednesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 522,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 523,
+      "label": "Conflict\nWednesday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 524,
+      "label": "Wednesday\n15:00-16:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 525,
+      "label": "Schedule:\nCMD (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 526,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 527,
+      "label": "Conflict\nThursday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 528,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 529,
+      "label": "Conflict\nThursday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 530,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 531,
+      "label": "Conflict\nThursday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 532,
+      "label": "Thursday\n15:00-16:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 533,
+      "label": "Schedule:\nCMD (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 534,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 535,
+      "label": "Conflict\nFriday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 536,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 537,
+      "label": "Conflict\nFriday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 538,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 539,
+      "label": "Conflict\nFriday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 540,
+      "label": "Friday\n15:00-16:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 541,
+      "label": "Schedule:\nCMD (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 542,
+      "label": "Conflict\nMonday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 543,
+      "label": "Conflict\nMonday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 544,
+      "label": "Conflict\nMonday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 545,
+      "label": "Conflict\nMonday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 546,
+      "label": "Conflict\nMonday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 547,
+      "label": "Conflict\nMonday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 548,
+      "label": "Conflict\nMonday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 549,
+      "label": "Monday\n16:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 550,
+      "label": "Schedule:\nUI (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 551,
+      "label": "Conflict\nTuesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 552,
+      "label": "Conflict\nTuesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 553,
+      "label": "Conflict\nTuesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 554,
+      "label": "Conflict\nTuesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 555,
+      "label": "Conflict\nTuesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 556,
+      "label": "Conflict\nTuesday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 557,
+      "label": "Conflict\nTuesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 558,
+      "label": "Tuesday\n16:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 559,
+      "label": "Schedule:\nUI (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 560,
+      "label": "Conflict\nWednesday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 561,
+      "label": "Conflict\nWednesday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 562,
+      "label": "Conflict\nWednesday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 563,
+      "label": "Conflict\nWednesday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 564,
+      "label": "Conflict\nWednesday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 565,
+      "label": "Conflict\nWednesday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 566,
+      "label": "Conflict\nWednesday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 567,
+      "label": "Wednesday\n16:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 568,
+      "label": "Schedule:\nUI (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 569,
+      "label": "Conflict\nThursday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 570,
+      "label": "Conflict\nThursday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 571,
+      "label": "Conflict\nThursday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 572,
+      "label": "Conflict\nThursday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 573,
+      "label": "Conflict\nThursday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 574,
+      "label": "Conflict\nThursday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 575,
+      "label": "Conflict\nThursday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 576,
+      "label": "Thursday\n16:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 577,
+      "label": "Schedule:\nUI (Lecture)",
+      "color": "#ffc107"
+    },
+    {
+      "id": 578,
+      "label": "Conflict\nFriday 08:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 579,
+      "label": "Conflict\nFriday 09:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 580,
+      "label": "Conflict\nFriday 10:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 581,
+      "label": "Conflict\nFriday 11:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 582,
+      "label": "Conflict\nFriday 13:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 583,
+      "label": "Conflict\nFriday 14:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 584,
+      "label": "Conflict\nFriday 15:00",
+      "color": "#dc3545",
+      "font": {
+        "color": "white"
+      }
+    },
+    {
+      "id": 585,
+      "label": "Friday\n16:00-17:00",
+      "color": "#28a745",
+      "font": {
+        "color": "white"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": 0,
+      "to": 1
+    },
+    {
+      "from": 1,
+      "to": 2
+    },
+    {
+      "from": 2,
+      "to": 3
+    },
+    {
+      "from": 3,
+      "to": 4
+    },
+    {
+      "from": 3,
+      "to": 5
+    },
+    {
+      "from": 3,
+      "to": 6
+    },
+    {
+      "from": 3,
+      "to": 7
+    },
+    {
+      "from": 3,
+      "to": 8
+    },
+    {
+      "from": 8,
+      "to": 9
+    },
+    {
+      "from": 9,
+      "to": 10
+    },
+    {
+      "from": 9,
+      "to": 11
+    },
+    {
+      "from": 11,
+      "to": 12
+    },
+    {
+      "from": 12,
+      "to": 13
+    },
+    {
+      "from": 12,
+      "to": 14
+    },
+    {
+      "from": 12,
+      "to": 15
+    },
+    {
+      "from": 12,
+      "to": 16
+    },
+    {
+      "from": 12,
+      "to": 17
+    },
+    {
+      "from": 12,
+      "to": 18
+    },
+    {
+      "from": 18,
+      "to": 19
+    },
+    {
+      "from": 19,
+      "to": 20
+    },
+    {
+      "from": 19,
+      "to": 21
+    },
+    {
+      "from": 19,
+      "to": 22
+    },
+    {
+      "from": 19,
+      "to": 23
+    },
+    {
+      "from": 19,
+      "to": 24
+    },
+    {
+      "from": 19,
+      "to": 25
+    },
+    {
+      "from": 19,
+      "to": 26
+    },
+    {
+      "from": 19,
+      "to": 27
+    },
+    {
+      "from": 19,
+      "to": 28
+    },
+    {
+      "from": 28,
+      "to": 29
+    },
+    {
+      "from": 29,
+      "to": 30
+    },
+    {
+      "from": 29,
+      "to": 31
+    },
+    {
+      "from": 29,
+      "to": 32
+    },
+    {
+      "from": 29,
+      "to": 33
+    },
+    {
+      "from": 29,
+      "to": 34
+    },
+    {
+      "from": 29,
+      "to": 35
+    },
+    {
+      "from": 29,
+      "to": 36
+    },
+    {
+      "from": 29,
+      "to": 37
+    },
+    {
+      "from": 29,
+      "to": 38
+    },
+    {
+      "from": 29,
+      "to": 39
+    },
+    {
+      "from": 29,
+      "to": 40
+    },
+    {
+      "from": 29,
+      "to": 41
+    },
+    {
+      "from": 29,
+      "to": 42
+    },
+    {
+      "from": 42,
+      "to": 43
+    },
+    {
+      "from": 43,
+      "to": 44
+    },
+    {
+      "from": 43,
+      "to": 45
+    },
+    {
+      "from": 43,
+      "to": 46
+    },
+    {
+      "from": 43,
+      "to": 47
+    },
+    {
+      "from": 43,
+      "to": 48
+    },
+    {
+      "from": 43,
+      "to": 49
+    },
+    {
+      "from": 43,
+      "to": 50
+    },
+    {
+      "from": 43,
+      "to": 51
+    },
+    {
+      "from": 43,
+      "to": 52
+    },
+    {
+      "from": 43,
+      "to": 53
+    },
+    {
+      "from": 53,
+      "to": 54
+    },
+    {
+      "from": 54,
+      "to": 55
+    },
+    {
+      "from": 54,
+      "to": 56
+    },
+    {
+      "from": 54,
+      "to": 57
+    },
+    {
+      "from": 54,
+      "to": 58
+    },
+    {
+      "from": 54,
+      "to": 59
+    },
+    {
+      "from": 54,
+      "to": 60
+    },
+    {
+      "from": 54,
+      "to": 61
+    },
+    {
+      "from": 54,
+      "to": 62
+    },
+    {
+      "from": 54,
+      "to": 63
+    },
+    {
+      "from": 54,
+      "to": 64
+    },
+    {
+      "from": 54,
+      "to": 65
+    },
+    {
+      "from": 54,
+      "to": 66
+    },
+    {
+      "from": 54,
+      "to": 67
+    },
+    {
+      "from": 54,
+      "to": 68
+    },
+    {
+      "from": 68,
+      "to": 69
+    },
+    {
+      "from": 69,
+      "to": 70
+    },
+    {
+      "from": 69,
+      "to": 71
+    },
+    {
+      "from": 69,
+      "to": 72
+    },
+    {
+      "from": 69,
+      "to": 73
+    },
+    {
+      "from": 69,
+      "to": 74
+    },
+    {
+      "from": 69,
+      "to": 75
+    },
+    {
+      "from": 69,
+      "to": 76
+    },
+    {
+      "from": 69,
+      "to": 77
+    },
+    {
+      "from": 69,
+      "to": 78
+    },
+    {
+      "from": 69,
+      "to": 79
+    },
+    {
+      "from": 69,
+      "to": 80
+    },
+    {
+      "from": 69,
+      "to": 81
+    },
+    {
+      "from": 69,
+      "to": 82
+    },
+    {
+      "from": 69,
+      "to": 83
+    },
+    {
+      "from": 69,
+      "to": 84
+    },
+    {
+      "from": 69,
+      "to": 85
+    },
+    {
+      "from": 69,
+      "to": 86
+    },
+    {
+      "from": 86,
+      "to": 87
+    },
+    {
+      "from": 87,
+      "to": 88
+    },
+    {
+      "from": 87,
+      "to": 89
+    },
+    {
+      "from": 87,
+      "to": 90
+    },
+    {
+      "from": 87,
+      "to": 91
+    },
+    {
+      "from": 87,
+      "to": 92
+    },
+    {
+      "from": 87,
+      "to": 93
+    },
+    {
+      "from": 87,
+      "to": 94
+    },
+    {
+      "from": 87,
+      "to": 95
+    },
+    {
+      "from": 87,
+      "to": 96
+    },
+    {
+      "from": 87,
+      "to": 97
+    },
+    {
+      "from": 87,
+      "to": 98
+    },
+    {
+      "from": 87,
+      "to": 99
+    },
+    {
+      "from": 87,
+      "to": 100
+    },
+    {
+      "from": 87,
+      "to": 101
+    },
+    {
+      "from": 87,
+      "to": 102
+    },
+    {
+      "from": 87,
+      "to": 103
+    },
+    {
+      "from": 87,
+      "to": 104
+    },
+    {
+      "from": 87,
+      "to": 105
+    },
+    {
+      "from": 87,
+      "to": 106
+    },
+    {
+      "from": 87,
+      "to": 107
+    },
+    {
+      "from": 86,
+      "to": 108
+    },
+    {
+      "from": 69,
+      "to": 109
+    },
+    {
+      "from": 109,
+      "to": 110
+    },
+    {
+      "from": 110,
+      "to": 111
+    },
+    {
+      "from": 110,
+      "to": 112
+    },
+    {
+      "from": 110,
+      "to": 113
+    },
+    {
+      "from": 110,
+      "to": 114
+    },
+    {
+      "from": 110,
+      "to": 115
+    },
+    {
+      "from": 110,
+      "to": 116
+    },
+    {
+      "from": 110,
+      "to": 117
+    },
+    {
+      "from": 110,
+      "to": 118
+    },
+    {
+      "from": 110,
+      "to": 119
+    },
+    {
+      "from": 110,
+      "to": 120
+    },
+    {
+      "from": 110,
+      "to": 121
+    },
+    {
+      "from": 110,
+      "to": 122
+    },
+    {
+      "from": 110,
+      "to": 123
+    },
+    {
+      "from": 110,
+      "to": 124
+    },
+    {
+      "from": 110,
+      "to": 125
+    },
+    {
+      "from": 110,
+      "to": 126
+    },
+    {
+      "from": 110,
+      "to": 127
+    },
+    {
+      "from": 110,
+      "to": 128
+    },
+    {
+      "from": 110,
+      "to": 129
+    },
+    {
+      "from": 110,
+      "to": 130
+    },
+    {
+      "from": 109,
+      "to": 131
+    },
+    {
+      "from": 69,
+      "to": 132
+    },
+    {
+      "from": 132,
+      "to": 133
+    },
+    {
+      "from": 133,
+      "to": 134
+    },
+    {
+      "from": 133,
+      "to": 135
+    },
+    {
+      "from": 133,
+      "to": 136
+    },
+    {
+      "from": 133,
+      "to": 137
+    },
+    {
+      "from": 133,
+      "to": 138
+    },
+    {
+      "from": 133,
+      "to": 139
+    },
+    {
+      "from": 133,
+      "to": 140
+    },
+    {
+      "from": 133,
+      "to": 141
+    },
+    {
+      "from": 133,
+      "to": 142
+    },
+    {
+      "from": 133,
+      "to": 143
+    },
+    {
+      "from": 133,
+      "to": 144
+    },
+    {
+      "from": 133,
+      "to": 145
+    },
+    {
+      "from": 133,
+      "to": 146
+    },
+    {
+      "from": 133,
+      "to": 147
+    },
+    {
+      "from": 133,
+      "to": 148
+    },
+    {
+      "from": 133,
+      "to": 149
+    },
+    {
+      "from": 133,
+      "to": 150
+    },
+    {
+      "from": 133,
+      "to": 151
+    },
+    {
+      "from": 133,
+      "to": 152
+    },
+    {
+      "from": 133,
+      "to": 153
+    },
+    {
+      "from": 132,
+      "to": 154
+    },
+    {
+      "from": 69,
+      "to": 155
+    },
+    {
+      "from": 155,
+      "to": 156
+    },
+    {
+      "from": 156,
+      "to": 157
+    },
+    {
+      "from": 156,
+      "to": 158
+    },
+    {
+      "from": 156,
+      "to": 159
+    },
+    {
+      "from": 156,
+      "to": 160
+    },
+    {
+      "from": 156,
+      "to": 161
+    },
+    {
+      "from": 156,
+      "to": 162
+    },
+    {
+      "from": 156,
+      "to": 163
+    },
+    {
+      "from": 156,
+      "to": 164
+    },
+    {
+      "from": 156,
+      "to": 165
+    },
+    {
+      "from": 156,
+      "to": 166
+    },
+    {
+      "from": 156,
+      "to": 167
+    },
+    {
+      "from": 156,
+      "to": 168
+    },
+    {
+      "from": 156,
+      "to": 169
+    },
+    {
+      "from": 156,
+      "to": 170
+    },
+    {
+      "from": 156,
+      "to": 171
+    },
+    {
+      "from": 156,
+      "to": 172
+    },
+    {
+      "from": 156,
+      "to": 173
+    },
+    {
+      "from": 156,
+      "to": 174
+    },
+    {
+      "from": 156,
+      "to": 175
+    },
+    {
+      "from": 156,
+      "to": 176
+    },
+    {
+      "from": 155,
+      "to": 177
+    },
+    {
+      "from": 68,
+      "to": 178
+    },
+    {
+      "from": 54,
+      "to": 179
+    },
+    {
+      "from": 179,
+      "to": 180
+    },
+    {
+      "from": 180,
+      "to": 181
+    },
+    {
+      "from": 180,
+      "to": 182
+    },
+    {
+      "from": 180,
+      "to": 183
+    },
+    {
+      "from": 180,
+      "to": 184
+    },
+    {
+      "from": 180,
+      "to": 185
+    },
+    {
+      "from": 180,
+      "to": 186
+    },
+    {
+      "from": 180,
+      "to": 187
+    },
+    {
+      "from": 180,
+      "to": 188
+    },
+    {
+      "from": 180,
+      "to": 189
+    },
+    {
+      "from": 180,
+      "to": 190
+    },
+    {
+      "from": 180,
+      "to": 191
+    },
+    {
+      "from": 180,
+      "to": 192
+    },
+    {
+      "from": 180,
+      "to": 193
+    },
+    {
+      "from": 180,
+      "to": 194
+    },
+    {
+      "from": 180,
+      "to": 195
+    },
+    {
+      "from": 180,
+      "to": 196
+    },
+    {
+      "from": 180,
+      "to": 197
+    },
+    {
+      "from": 197,
+      "to": 198
+    },
+    {
+      "from": 198,
+      "to": 199
+    },
+    {
+      "from": 198,
+      "to": 200
+    },
+    {
+      "from": 198,
+      "to": 201
+    },
+    {
+      "from": 198,
+      "to": 202
+    },
+    {
+      "from": 198,
+      "to": 203
+    },
+    {
+      "from": 198,
+      "to": 204
+    },
+    {
+      "from": 198,
+      "to": 205
+    },
+    {
+      "from": 198,
+      "to": 206
+    },
+    {
+      "from": 198,
+      "to": 207
+    },
+    {
+      "from": 198,
+      "to": 208
+    },
+    {
+      "from": 198,
+      "to": 209
+    },
+    {
+      "from": 198,
+      "to": 210
+    },
+    {
+      "from": 198,
+      "to": 211
+    },
+    {
+      "from": 198,
+      "to": 212
+    },
+    {
+      "from": 198,
+      "to": 213
+    },
+    {
+      "from": 198,
+      "to": 214
+    },
+    {
+      "from": 198,
+      "to": 215
+    },
+    {
+      "from": 198,
+      "to": 216
+    },
+    {
+      "from": 198,
+      "to": 217
+    },
+    {
+      "from": 198,
+      "to": 218
+    },
+    {
+      "from": 197,
+      "to": 219
+    },
+    {
+      "from": 180,
+      "to": 220
+    },
+    {
+      "from": 220,
+      "to": 221
+    },
+    {
+      "from": 221,
+      "to": 222
+    },
+    {
+      "from": 221,
+      "to": 223
+    },
+    {
+      "from": 221,
+      "to": 224
+    },
+    {
+      "from": 221,
+      "to": 225
+    },
+    {
+      "from": 221,
+      "to": 226
+    },
+    {
+      "from": 221,
+      "to": 227
+    },
+    {
+      "from": 221,
+      "to": 228
+    },
+    {
+      "from": 221,
+      "to": 229
+    },
+    {
+      "from": 221,
+      "to": 230
+    },
+    {
+      "from": 221,
+      "to": 231
+    },
+    {
+      "from": 221,
+      "to": 232
+    },
+    {
+      "from": 221,
+      "to": 233
+    },
+    {
+      "from": 221,
+      "to": 234
+    },
+    {
+      "from": 221,
+      "to": 235
+    },
+    {
+      "from": 221,
+      "to": 236
+    },
+    {
+      "from": 221,
+      "to": 237
+    },
+    {
+      "from": 221,
+      "to": 238
+    },
+    {
+      "from": 221,
+      "to": 239
+    },
+    {
+      "from": 221,
+      "to": 240
+    },
+    {
+      "from": 221,
+      "to": 241
+    },
+    {
+      "from": 220,
+      "to": 242
+    },
+    {
+      "from": 180,
+      "to": 243
+    },
+    {
+      "from": 243,
+      "to": 244
+    },
+    {
+      "from": 244,
+      "to": 245
+    },
+    {
+      "from": 244,
+      "to": 246
+    },
+    {
+      "from": 244,
+      "to": 247
+    },
+    {
+      "from": 244,
+      "to": 248
+    },
+    {
+      "from": 244,
+      "to": 249
+    },
+    {
+      "from": 244,
+      "to": 250
+    },
+    {
+      "from": 244,
+      "to": 251
+    },
+    {
+      "from": 244,
+      "to": 252
+    },
+    {
+      "from": 244,
+      "to": 253
+    },
+    {
+      "from": 244,
+      "to": 254
+    },
+    {
+      "from": 244,
+      "to": 255
+    },
+    {
+      "from": 244,
+      "to": 256
+    },
+    {
+      "from": 244,
+      "to": 257
+    },
+    {
+      "from": 244,
+      "to": 258
+    },
+    {
+      "from": 244,
+      "to": 259
+    },
+    {
+      "from": 244,
+      "to": 260
+    },
+    {
+      "from": 244,
+      "to": 261
+    },
+    {
+      "from": 244,
+      "to": 262
+    },
+    {
+      "from": 244,
+      "to": 263
+    },
+    {
+      "from": 244,
+      "to": 264
+    },
+    {
+      "from": 243,
+      "to": 265
+    },
+    {
+      "from": 180,
+      "to": 266
+    },
+    {
+      "from": 266,
+      "to": 267
+    },
+    {
+      "from": 267,
+      "to": 268
+    },
+    {
+      "from": 267,
+      "to": 269
+    },
+    {
+      "from": 267,
+      "to": 270
+    },
+    {
+      "from": 267,
+      "to": 271
+    },
+    {
+      "from": 267,
+      "to": 272
+    },
+    {
+      "from": 267,
+      "to": 273
+    },
+    {
+      "from": 267,
+      "to": 274
+    },
+    {
+      "from": 267,
+      "to": 275
+    },
+    {
+      "from": 267,
+      "to": 276
+    },
+    {
+      "from": 267,
+      "to": 277
+    },
+    {
+      "from": 267,
+      "to": 278
+    },
+    {
+      "from": 267,
+      "to": 279
+    },
+    {
+      "from": 267,
+      "to": 280
+    },
+    {
+      "from": 267,
+      "to": 281
+    },
+    {
+      "from": 267,
+      "to": 282
+    },
+    {
+      "from": 267,
+      "to": 283
+    },
+    {
+      "from": 267,
+      "to": 284
+    },
+    {
+      "from": 267,
+      "to": 285
+    },
+    {
+      "from": 267,
+      "to": 286
+    },
+    {
+      "from": 267,
+      "to": 287
+    },
+    {
+      "from": 266,
+      "to": 288
+    },
+    {
+      "from": 179,
+      "to": 289
+    },
+    {
+      "from": 54,
+      "to": 290
+    },
+    {
+      "from": 290,
+      "to": 291
+    },
+    {
+      "from": 291,
+      "to": 292
+    },
+    {
+      "from": 291,
+      "to": 293
+    },
+    {
+      "from": 291,
+      "to": 294
+    },
+    {
+      "from": 291,
+      "to": 295
+    },
+    {
+      "from": 291,
+      "to": 296
+    },
+    {
+      "from": 291,
+      "to": 297
+    },
+    {
+      "from": 291,
+      "to": 298
+    },
+    {
+      "from": 291,
+      "to": 299
+    },
+    {
+      "from": 291,
+      "to": 300
+    },
+    {
+      "from": 291,
+      "to": 301
+    },
+    {
+      "from": 291,
+      "to": 302
+    },
+    {
+      "from": 291,
+      "to": 303
+    },
+    {
+      "from": 291,
+      "to": 304
+    },
+    {
+      "from": 291,
+      "to": 305
+    },
+    {
+      "from": 291,
+      "to": 306
+    },
+    {
+      "from": 291,
+      "to": 307
+    },
+    {
+      "from": 291,
+      "to": 308
+    },
+    {
+      "from": 308,
+      "to": 309
+    },
+    {
+      "from": 309,
+      "to": 310
+    },
+    {
+      "from": 309,
+      "to": 311
+    },
+    {
+      "from": 309,
+      "to": 312
+    },
+    {
+      "from": 309,
+      "to": 313
+    },
+    {
+      "from": 309,
+      "to": 314
+    },
+    {
+      "from": 309,
+      "to": 315
+    },
+    {
+      "from": 309,
+      "to": 316
+    },
+    {
+      "from": 309,
+      "to": 317
+    },
+    {
+      "from": 309,
+      "to": 318
+    },
+    {
+      "from": 309,
+      "to": 319
+    },
+    {
+      "from": 309,
+      "to": 320
+    },
+    {
+      "from": 309,
+      "to": 321
+    },
+    {
+      "from": 309,
+      "to": 322
+    },
+    {
+      "from": 309,
+      "to": 323
+    },
+    {
+      "from": 309,
+      "to": 324
+    },
+    {
+      "from": 309,
+      "to": 325
+    },
+    {
+      "from": 309,
+      "to": 326
+    },
+    {
+      "from": 309,
+      "to": 327
+    },
+    {
+      "from": 309,
+      "to": 328
+    },
+    {
+      "from": 309,
+      "to": 329
+    },
+    {
+      "from": 308,
+      "to": 330
+    },
+    {
+      "from": 291,
+      "to": 331
+    },
+    {
+      "from": 331,
+      "to": 332
+    },
+    {
+      "from": 332,
+      "to": 333
+    },
+    {
+      "from": 332,
+      "to": 334
+    },
+    {
+      "from": 332,
+      "to": 335
+    },
+    {
+      "from": 332,
+      "to": 336
+    },
+    {
+      "from": 332,
+      "to": 337
+    },
+    {
+      "from": 332,
+      "to": 338
+    },
+    {
+      "from": 332,
+      "to": 339
+    },
+    {
+      "from": 332,
+      "to": 340
+    },
+    {
+      "from": 332,
+      "to": 341
+    },
+    {
+      "from": 332,
+      "to": 342
+    },
+    {
+      "from": 332,
+      "to": 343
+    },
+    {
+      "from": 332,
+      "to": 344
+    },
+    {
+      "from": 332,
+      "to": 345
+    },
+    {
+      "from": 332,
+      "to": 346
+    },
+    {
+      "from": 332,
+      "to": 347
+    },
+    {
+      "from": 332,
+      "to": 348
+    },
+    {
+      "from": 332,
+      "to": 349
+    },
+    {
+      "from": 332,
+      "to": 350
+    },
+    {
+      "from": 332,
+      "to": 351
+    },
+    {
+      "from": 332,
+      "to": 352
+    },
+    {
+      "from": 331,
+      "to": 353
+    },
+    {
+      "from": 291,
+      "to": 354
+    },
+    {
+      "from": 354,
+      "to": 355
+    },
+    {
+      "from": 355,
+      "to": 356
+    },
+    {
+      "from": 355,
+      "to": 357
+    },
+    {
+      "from": 355,
+      "to": 358
+    },
+    {
+      "from": 355,
+      "to": 359
+    },
+    {
+      "from": 355,
+      "to": 360
+    },
+    {
+      "from": 355,
+      "to": 361
+    },
+    {
+      "from": 355,
+      "to": 362
+    },
+    {
+      "from": 355,
+      "to": 363
+    },
+    {
+      "from": 355,
+      "to": 364
+    },
+    {
+      "from": 355,
+      "to": 365
+    },
+    {
+      "from": 355,
+      "to": 366
+    },
+    {
+      "from": 355,
+      "to": 367
+    },
+    {
+      "from": 355,
+      "to": 368
+    },
+    {
+      "from": 355,
+      "to": 369
+    },
+    {
+      "from": 355,
+      "to": 370
+    },
+    {
+      "from": 355,
+      "to": 371
+    },
+    {
+      "from": 355,
+      "to": 372
+    },
+    {
+      "from": 355,
+      "to": 373
+    },
+    {
+      "from": 355,
+      "to": 374
+    },
+    {
+      "from": 355,
+      "to": 375
+    },
+    {
+      "from": 354,
+      "to": 376
+    },
+    {
+      "from": 291,
+      "to": 377
+    },
+    {
+      "from": 377,
+      "to": 378
+    },
+    {
+      "from": 378,
+      "to": 379
+    },
+    {
+      "from": 378,
+      "to": 380
+    },
+    {
+      "from": 378,
+      "to": 381
+    },
+    {
+      "from": 378,
+      "to": 382
+    },
+    {
+      "from": 378,
+      "to": 383
+    },
+    {
+      "from": 378,
+      "to": 384
+    },
+    {
+      "from": 378,
+      "to": 385
+    },
+    {
+      "from": 378,
+      "to": 386
+    },
+    {
+      "from": 378,
+      "to": 387
+    },
+    {
+      "from": 378,
+      "to": 388
+    },
+    {
+      "from": 378,
+      "to": 389
+    },
+    {
+      "from": 378,
+      "to": 390
+    },
+    {
+      "from": 378,
+      "to": 391
+    },
+    {
+      "from": 378,
+      "to": 392
+    },
+    {
+      "from": 378,
+      "to": 393
+    },
+    {
+      "from": 378,
+      "to": 394
+    },
+    {
+      "from": 378,
+      "to": 395
+    },
+    {
+      "from": 378,
+      "to": 396
+    },
+    {
+      "from": 378,
+      "to": 397
+    },
+    {
+      "from": 378,
+      "to": 398
+    },
+    {
+      "from": 377,
+      "to": 399
+    },
+    {
+      "from": 290,
+      "to": 400
+    },
+    {
+      "from": 54,
+      "to": 401
+    },
+    {
+      "from": 401,
+      "to": 402
+    },
+    {
+      "from": 402,
+      "to": 403
+    },
+    {
+      "from": 402,
+      "to": 404
+    },
+    {
+      "from": 402,
+      "to": 405
+    },
+    {
+      "from": 402,
+      "to": 406
+    },
+    {
+      "from": 402,
+      "to": 407
+    },
+    {
+      "from": 402,
+      "to": 408
+    },
+    {
+      "from": 402,
+      "to": 409
+    },
+    {
+      "from": 402,
+      "to": 410
+    },
+    {
+      "from": 402,
+      "to": 411
+    },
+    {
+      "from": 402,
+      "to": 412
+    },
+    {
+      "from": 402,
+      "to": 413
+    },
+    {
+      "from": 402,
+      "to": 414
+    },
+    {
+      "from": 402,
+      "to": 415
+    },
+    {
+      "from": 402,
+      "to": 416
+    },
+    {
+      "from": 416,
+      "to": 417
+    },
+    {
+      "from": 417,
+      "to": 418
+    },
+    {
+      "from": 417,
+      "to": 419
+    },
+    {
+      "from": 417,
+      "to": 420
+    },
+    {
+      "from": 417,
+      "to": 421
+    },
+    {
+      "from": 417,
+      "to": 422
+    },
+    {
+      "from": 417,
+      "to": 423
+    },
+    {
+      "from": 417,
+      "to": 424
+    },
+    {
+      "from": 417,
+      "to": 425
+    },
+    {
+      "from": 417,
+      "to": 426
+    },
+    {
+      "from": 417,
+      "to": 427
+    },
+    {
+      "from": 417,
+      "to": 428
+    },
+    {
+      "from": 417,
+      "to": 429
+    },
+    {
+      "from": 417,
+      "to": 430
+    },
+    {
+      "from": 417,
+      "to": 431
+    },
+    {
+      "from": 417,
+      "to": 432
+    },
+    {
+      "from": 417,
+      "to": 433
+    },
+    {
+      "from": 417,
+      "to": 434
+    },
+    {
+      "from": 417,
+      "to": 435
+    },
+    {
+      "from": 435,
+      "to": 436
+    },
+    {
+      "from": 436,
+      "to": 437
+    },
+    {
+      "from": 436,
+      "to": 438
+    },
+    {
+      "from": 436,
+      "to": 439
+    },
+    {
+      "from": 436,
+      "to": 440
+    },
+    {
+      "from": 436,
+      "to": 441
+    },
+    {
+      "from": 441,
+      "to": 442
+    },
+    {
+      "from": 442,
+      "to": 443
+    },
+    {
+      "from": 442,
+      "to": 444
+    },
+    {
+      "from": 442,
+      "to": 445
+    },
+    {
+      "from": 442,
+      "to": 446
+    },
+    {
+      "from": 442,
+      "to": 447
+    },
+    {
+      "from": 447,
+      "to": 448
+    },
+    {
+      "from": 448,
+      "to": 449
+    },
+    {
+      "from": 448,
+      "to": 450
+    },
+    {
+      "from": 448,
+      "to": 451
+    },
+    {
+      "from": 448,
+      "to": 452
+    },
+    {
+      "from": 448,
+      "to": 453
+    },
+    {
+      "from": 453,
+      "to": 454
+    },
+    {
+      "from": 454,
+      "to": 455
+    },
+    {
+      "from": 454,
+      "to": 456
+    },
+    {
+      "from": 454,
+      "to": 457
+    },
+    {
+      "from": 454,
+      "to": 458
+    },
+    {
+      "from": 454,
+      "to": 459
+    },
+    {
+      "from": 459,
+      "to": 460
+    },
+    {
+      "from": 460,
+      "to": 461
+    },
+    {
+      "from": 460,
+      "to": 462
+    },
+    {
+      "from": 460,
+      "to": 463
+    },
+    {
+      "from": 460,
+      "to": 464
+    },
+    {
+      "from": 460,
+      "to": 465
+    },
+    {
+      "from": 465,
+      "to": 466
+    },
+    {
+      "from": 466,
+      "to": 467
+    },
+    {
+      "from": 466,
+      "to": 468
+    },
+    {
+      "from": 466,
+      "to": 469
+    },
+    {
+      "from": 466,
+      "to": 470
+    },
+    {
+      "from": 466,
+      "to": 471
+    },
+    {
+      "from": 466,
+      "to": 472
+    },
+    {
+      "from": 472,
+      "to": 473
+    },
+    {
+      "from": 473,
+      "to": 474
+    },
+    {
+      "from": 473,
+      "to": 475
+    },
+    {
+      "from": 473,
+      "to": 476
+    },
+    {
+      "from": 473,
+      "to": 477
+    },
+    {
+      "from": 473,
+      "to": 478
+    },
+    {
+      "from": 473,
+      "to": 479
+    },
+    {
+      "from": 479,
+      "to": 480
+    },
+    {
+      "from": 480,
+      "to": 481
+    },
+    {
+      "from": 480,
+      "to": 482
+    },
+    {
+      "from": 480,
+      "to": 483
+    },
+    {
+      "from": 480,
+      "to": 484
+    },
+    {
+      "from": 480,
+      "to": 485
+    },
+    {
+      "from": 480,
+      "to": 486
+    },
+    {
+      "from": 486,
+      "to": 487
+    },
+    {
+      "from": 487,
+      "to": 488
+    },
+    {
+      "from": 487,
+      "to": 489
+    },
+    {
+      "from": 487,
+      "to": 490
+    },
+    {
+      "from": 487,
+      "to": 491
+    },
+    {
+      "from": 487,
+      "to": 492
+    },
+    {
+      "from": 487,
+      "to": 493
+    },
+    {
+      "from": 493,
+      "to": 494
+    },
+    {
+      "from": 494,
+      "to": 495
+    },
+    {
+      "from": 494,
+      "to": 496
+    },
+    {
+      "from": 494,
+      "to": 497
+    },
+    {
+      "from": 494,
+      "to": 498
+    },
+    {
+      "from": 494,
+      "to": 499
+    },
+    {
+      "from": 494,
+      "to": 500
+    },
+    {
+      "from": 500,
+      "to": 501
+    },
+    {
+      "from": 501,
+      "to": 502
+    },
+    {
+      "from": 501,
+      "to": 503
+    },
+    {
+      "from": 501,
+      "to": 504
+    },
+    {
+      "from": 501,
+      "to": 505
+    },
+    {
+      "from": 501,
+      "to": 506
+    },
+    {
+      "from": 501,
+      "to": 507
+    },
+    {
+      "from": 501,
+      "to": 508
+    },
+    {
+      "from": 508,
+      "to": 509
+    },
+    {
+      "from": 509,
+      "to": 510
+    },
+    {
+      "from": 509,
+      "to": 511
+    },
+    {
+      "from": 509,
+      "to": 512
+    },
+    {
+      "from": 509,
+      "to": 513
+    },
+    {
+      "from": 509,
+      "to": 514
+    },
+    {
+      "from": 509,
+      "to": 515
+    },
+    {
+      "from": 509,
+      "to": 516
+    },
+    {
+      "from": 516,
+      "to": 517
+    },
+    {
+      "from": 517,
+      "to": 518
+    },
+    {
+      "from": 517,
+      "to": 519
+    },
+    {
+      "from": 517,
+      "to": 520
+    },
+    {
+      "from": 517,
+      "to": 521
+    },
+    {
+      "from": 517,
+      "to": 522
+    },
+    {
+      "from": 517,
+      "to": 523
+    },
+    {
+      "from": 517,
+      "to": 524
+    },
+    {
+      "from": 524,
+      "to": 525
+    },
+    {
+      "from": 525,
+      "to": 526
+    },
+    {
+      "from": 525,
+      "to": 527
+    },
+    {
+      "from": 525,
+      "to": 528
+    },
+    {
+      "from": 525,
+      "to": 529
+    },
+    {
+      "from": 525,
+      "to": 530
+    },
+    {
+      "from": 525,
+      "to": 531
+    },
+    {
+      "from": 525,
+      "to": 532
+    },
+    {
+      "from": 532,
+      "to": 533
+    },
+    {
+      "from": 533,
+      "to": 534
+    },
+    {
+      "from": 533,
+      "to": 535
+    },
+    {
+      "from": 533,
+      "to": 536
+    },
+    {
+      "from": 533,
+      "to": 537
+    },
+    {
+      "from": 533,
+      "to": 538
+    },
+    {
+      "from": 533,
+      "to": 539
+    },
+    {
+      "from": 533,
+      "to": 540
+    },
+    {
+      "from": 540,
+      "to": 541
+    },
+    {
+      "from": 541,
+      "to": 542
+    },
+    {
+      "from": 541,
+      "to": 543
+    },
+    {
+      "from": 541,
+      "to": 544
+    },
+    {
+      "from": 541,
+      "to": 545
+    },
+    {
+      "from": 541,
+      "to": 546
+    },
+    {
+      "from": 541,
+      "to": 547
+    },
+    {
+      "from": 541,
+      "to": 548
+    },
+    {
+      "from": 541,
+      "to": 549
+    },
+    {
+      "from": 549,
+      "to": 550
+    },
+    {
+      "from": 550,
+      "to": 551
+    },
+    {
+      "from": 550,
+      "to": 552
+    },
+    {
+      "from": 550,
+      "to": 553
+    },
+    {
+      "from": 550,
+      "to": 554
+    },
+    {
+      "from": 550,
+      "to": 555
+    },
+    {
+      "from": 550,
+      "to": 556
+    },
+    {
+      "from": 550,
+      "to": 557
+    },
+    {
+      "from": 550,
+      "to": 558
+    },
+    {
+      "from": 558,
+      "to": 559
+    },
+    {
+      "from": 559,
+      "to": 560
+    },
+    {
+      "from": 559,
+      "to": 561
+    },
+    {
+      "from": 559,
+      "to": 562
+    },
+    {
+      "from": 559,
+      "to": 563
+    },
+    {
+      "from": 559,
+      "to": 564
+    },
+    {
+      "from": 559,
+      "to": 565
+    },
+    {
+      "from": 559,
+      "to": 566
+    },
+    {
+      "from": 559,
+      "to": 567
+    },
+    {
+      "from": 567,
+      "to": 568
+    },
+    {
+      "from": 568,
+      "to": 569
+    },
+    {
+      "from": 568,
+      "to": 570
+    },
+    {
+      "from": 568,
+      "to": 571
+    },
+    {
+      "from": 568,
+      "to": 572
+    },
+    {
+      "from": 568,
+      "to": 573
+    },
+    {
+      "from": 568,
+      "to": 574
+    },
+    {
+      "from": 568,
+      "to": 575
+    },
+    {
+      "from": 568,
+      "to": 576
+    },
+    {
+      "from": 576,
+      "to": 577
+    },
+    {
+      "from": 577,
+      "to": 578
+    },
+    {
+      "from": 577,
+      "to": 579
+    },
+    {
+      "from": 577,
+      "to": 580
+    },
+    {
+      "from": 577,
+      "to": 581
+    },
+    {
+      "from": 577,
+      "to": 582
+    },
+    {
+      "from": 577,
+      "to": 583
+    },
+    {
+      "from": 577,
+      "to": 584
+    },
+    {
+      "from": 577,
+      "to": 585
+    }
+  ],
+  "grid_events": [
+    {
+      "action": "add",
+      "day": "Monday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "OSL",
+      "stype": "Lab",
+      "step": 0
+    },
+    {
+      "action": "add",
+      "day": "Tuesday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "OSL",
+      "stype": "Lab",
+      "step": 1
+    },
+    {
+      "action": "add",
+      "day": "Monday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "DAAL",
+      "stype": "Lab",
+      "step": 2
+    },
+    {
+      "action": "add",
+      "day": "Tuesday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "DAAL",
+      "stype": "Lab",
+      "step": 3
+    },
+    {
+      "action": "add",
+      "day": "Wednesday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "SEL",
+      "stype": "Lab",
+      "step": 4
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "SEL",
+      "stype": "Lab",
+      "step": 5
+    },
+    {
+      "action": "add",
+      "day": "Wednesday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 6
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 7
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 8
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 9
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 10
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 11
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 12
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 13
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 14
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 15
+    },
+    {
+      "action": "remove",
+      "day": "Thursday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 16
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 17
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 18
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 19
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 20
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 21
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 22
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 23
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 24
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 25
+    },
+    {
+      "action": "remove",
+      "day": "Thursday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 26
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 27
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 28
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 29
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 30
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 31
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 32
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "15:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 33
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 34
+    },
+    {
+      "action": "remove",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 35
+    },
+    {
+      "action": "remove",
+      "day": "Thursday",
+      "ts": "15:00",
+      "te": "17:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 36
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "08:00",
+      "te": "10:00",
+      "course": "CMDL",
+      "stype": "Lab",
+      "step": 37
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 38
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "10:00",
+      "te": "12:00",
+      "course": "UIL",
+      "stype": "Lab",
+      "step": 39
+    },
+    {
+      "action": "add",
+      "day": "Monday",
+      "ts": "13:00",
+      "te": "14:00",
+      "course": "OS",
+      "stype": "Lecture",
+      "step": 40
+    },
+    {
+      "action": "add",
+      "day": "Tuesday",
+      "ts": "13:00",
+      "te": "14:00",
+      "course": "OS",
+      "stype": "Lecture",
+      "step": 41
+    },
+    {
+      "action": "add",
+      "day": "Wednesday",
+      "ts": "13:00",
+      "te": "14:00",
+      "course": "OS",
+      "stype": "Lecture",
+      "step": 42
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "13:00",
+      "te": "14:00",
+      "course": "OS",
+      "stype": "Lecture",
+      "step": 43
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "13:00",
+      "te": "14:00",
+      "course": "DAA",
+      "stype": "Lecture",
+      "step": 44
+    },
+    {
+      "action": "add",
+      "day": "Monday",
+      "ts": "14:00",
+      "te": "15:00",
+      "course": "DAA",
+      "stype": "Lecture",
+      "step": 45
+    },
+    {
+      "action": "add",
+      "day": "Tuesday",
+      "ts": "14:00",
+      "te": "15:00",
+      "course": "DAA",
+      "stype": "Lecture",
+      "step": 46
+    },
+    {
+      "action": "add",
+      "day": "Wednesday",
+      "ts": "14:00",
+      "te": "15:00",
+      "course": "DAA",
+      "stype": "Lecture",
+      "step": 47
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "14:00",
+      "te": "15:00",
+      "course": "SE",
+      "stype": "Lecture",
+      "step": 48
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "14:00",
+      "te": "15:00",
+      "course": "SE",
+      "stype": "Lecture",
+      "step": 49
+    },
+    {
+      "action": "add",
+      "day": "Monday",
+      "ts": "15:00",
+      "te": "16:00",
+      "course": "SE",
+      "stype": "Lecture",
+      "step": 50
+    },
+    {
+      "action": "add",
+      "day": "Tuesday",
+      "ts": "15:00",
+      "te": "16:00",
+      "course": "SE",
+      "stype": "Lecture",
+      "step": 51
+    },
+    {
+      "action": "add",
+      "day": "Wednesday",
+      "ts": "15:00",
+      "te": "16:00",
+      "course": "CMD",
+      "stype": "Lecture",
+      "step": 52
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "15:00",
+      "te": "16:00",
+      "course": "CMD",
+      "stype": "Lecture",
+      "step": 53
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "15:00",
+      "te": "16:00",
+      "course": "CMD",
+      "stype": "Lecture",
+      "step": 54
+    },
+    {
+      "action": "add",
+      "day": "Monday",
+      "ts": "16:00",
+      "te": "17:00",
+      "course": "CMD",
+      "stype": "Lecture",
+      "step": 55
+    },
+    {
+      "action": "add",
+      "day": "Tuesday",
+      "ts": "16:00",
+      "te": "17:00",
+      "course": "UI",
+      "stype": "Lecture",
+      "step": 56
+    },
+    {
+      "action": "add",
+      "day": "Wednesday",
+      "ts": "16:00",
+      "te": "17:00",
+      "course": "UI",
+      "stype": "Lecture",
+      "step": 57
+    },
+    {
+      "action": "add",
+      "day": "Thursday",
+      "ts": "16:00",
+      "te": "17:00",
+      "course": "UI",
+      "stype": "Lecture",
+      "step": 58
+    },
+    {
+      "action": "add",
+      "day": "Friday",
+      "ts": "16:00",
+      "te": "17:00",
+      "course": "UI",
+      "stype": "Lecture",
+      "step": 59
+    }
+  ],
+  "assignment": [
+    {
+      "course": "OSL",
+      "stype": "Lab",
+      "ts": "08:00",
+      "te": "10:00",
+      "day": "Monday"
+    },
+    {
+      "course": "OSL",
+      "stype": "Lab",
+      "ts": "08:00",
+      "te": "10:00",
+      "day": "Tuesday"
+    },
+    {
+      "course": "DAAL",
+      "stype": "Lab",
+      "ts": "10:00",
+      "te": "12:00",
+      "day": "Monday"
+    },
+    {
+      "course": "DAAL",
+      "stype": "Lab",
+      "ts": "10:00",
+      "te": "12:00",
+      "day": "Tuesday"
+    },
+    {
+      "course": "SEL",
+      "stype": "Lab",
+      "ts": "08:00",
+      "te": "10:00",
+      "day": "Wednesday"
+    },
+    {
+      "course": "SEL",
+      "stype": "Lab",
+      "ts": "08:00",
+      "te": "10:00",
+      "day": "Thursday"
+    },
+    {
+      "course": "CMDL",
+      "stype": "Lab",
+      "ts": "10:00",
+      "te": "12:00",
+      "day": "Wednesday"
+    },
+    {
+      "course": "CMDL",
+      "stype": "Lab",
+      "ts": "08:00",
+      "te": "10:00",
+      "day": "Friday"
+    },
+    {
+      "course": "UIL",
+      "stype": "Lab",
+      "ts": "10:00",
+      "te": "12:00",
+      "day": "Thursday"
+    },
+    {
+      "course": "UIL",
+      "stype": "Lab",
+      "ts": "10:00",
+      "te": "12:00",
+      "day": "Friday"
+    },
+    {
+      "course": "OS",
+      "stype": "Lecture",
+      "ts": "13:00",
+      "te": "14:00",
+      "day": "Monday"
+    },
+    {
+      "course": "OS",
+      "stype": "Lecture",
+      "ts": "13:00",
+      "te": "14:00",
+      "day": "Tuesday"
+    },
+    {
+      "course": "OS",
+      "stype": "Lecture",
+      "ts": "13:00",
+      "te": "14:00",
+      "day": "Wednesday"
+    },
+    {
+      "course": "OS",
+      "stype": "Lecture",
+      "ts": "13:00",
+      "te": "14:00",
+      "day": "Thursday"
+    },
+    {
+      "course": "DAA",
+      "stype": "Lecture",
+      "ts": "13:00",
+      "te": "14:00",
+      "day": "Friday"
+    },
+    {
+      "course": "DAA",
+      "stype": "Lecture",
+      "ts": "14:00",
+      "te": "15:00",
+      "day": "Monday"
+    },
+    {
+      "course": "DAA",
+      "stype": "Lecture",
+      "ts": "14:00",
+      "te": "15:00",
+      "day": "Tuesday"
+    },
+    {
+      "course": "DAA",
+      "stype": "Lecture",
+      "ts": "14:00",
+      "te": "15:00",
+      "day": "Wednesday"
+    },
+    {
+      "course": "SE",
+      "stype": "Lecture",
+      "ts": "14:00",
+      "te": "15:00",
+      "day": "Thursday"
+    },
+    {
+      "course": "SE",
+      "stype": "Lecture",
+      "ts": "14:00",
+      "te": "15:00",
+      "day": "Friday"
+    },
+    {
+      "course": "SE",
+      "stype": "Lecture",
+      "ts": "15:00",
+      "te": "16:00",
+      "day": "Monday"
+    },
+    {
+      "course": "SE",
+      "stype": "Lecture",
+      "ts": "15:00",
+      "te": "16:00",
+      "day": "Tuesday"
+    },
+    {
+      "course": "CMD",
+      "stype": "Lecture",
+      "ts": "15:00",
+      "te": "16:00",
+      "day": "Wednesday"
+    },
+    {
+      "course": "CMD",
+      "stype": "Lecture",
+      "ts": "15:00",
+      "te": "16:00",
+      "day": "Thursday"
+    },
+    {
+      "course": "CMD",
+      "stype": "Lecture",
+      "ts": "15:00",
+      "te": "16:00",
+      "day": "Friday"
+    },
+    {
+      "course": "CMD",
+      "stype": "Lecture",
+      "ts": "16:00",
+      "te": "17:00",
+      "day": "Monday"
+    },
+    {
+      "course": "UI",
+      "stype": "Lecture",
+      "ts": "16:00",
+      "te": "17:00",
+      "day": "Tuesday"
+    },
+    {
+      "course": "UI",
+      "stype": "Lecture",
+      "ts": "16:00",
+      "te": "17:00",
+      "day": "Wednesday"
+    },
+    {
+      "course": "UI",
+      "stype": "Lecture",
+      "ts": "16:00",
+      "te": "17:00",
+      "day": "Thursday"
+    },
+    {
+      "course": "UI",
+      "stype": "Lecture",
+      "ts": "16:00",
+      "te": "17:00",
+      "day": "Friday"
+    }
+  ],
+  "stats": {
+    "greens": 45,
+    "reds": 480,
+    "oranges": 15,
+    "total_sessions": 30
+  }
+}

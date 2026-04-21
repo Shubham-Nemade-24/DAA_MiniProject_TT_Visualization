@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timetable Backtracking Visualizer | DAA Lab</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--sf:#161b22;--bd:#30363d;--tx:#e6edf3;--mt:#8b949e;
+--gn:#3fb950;--rd:#f85149;--or:#e3a008;--cy:#58a6ff;--pu:#bc8cff;
+--gnb:rgba(63,185,80,.15);--rdb:rgba(248,81,73,.15);--orb:rgba(227,160,8,.18);--cyb:rgba(88,166,255,.15)}
+html,body{height:100%;background:var(--bg);color:var(--tx);font-family:'Inter',sans-serif;overflow:hidden}
+header{display:flex;align-items:center;justify-content:space-between;padding:0 20px;border-bottom:1px solid var(--bd);background:var(--sf);height:50px;flex-shrink:0}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-icon{width:28px;height:28px;background:linear-gradient(135deg,var(--cy),var(--pu));border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:14px}
+.logo h1{font-size:14px;font-weight:600}.logo h1 span{color:var(--cy)}
+.badge{padding:3px 10px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid}
+.app{display:flex;flex-direction:column;height:calc(100vh - 50px)}
+.pb{height:3px;background:var(--bd);flex-shrink:0}.pf{height:100%;background:linear-gradient(90deg,var(--cy),var(--pu));transition:width .3s;width:0%}
+.main{display:flex;flex:1;overflow:hidden}
+.pl{flex:3;border-right:1px solid var(--bd);display:flex;flex-direction:column}
+.pr{flex:2;display:flex;flex-direction:column}
+.ph{padding:7px 14px;border-bottom:1px solid var(--bd);display:flex;align-items:center;justify-content:space-between;background:var(--sf);flex-shrink:0}
+.pt{font-size:11px;font-weight:700;color:var(--mt);text-transform:uppercase;letter-spacing:.08em}
+#tc{flex:1;overflow:hidden}
+.nc{display:flex;gap:7px}.cp{padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700}
+.cg{background:var(--gnb);color:var(--gn)}.cr{background:var(--rdb);color:var(--rd)}.co{background:var(--orb);color:var(--or)}
+.lg{display:flex;gap:8px}.li{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--mt)}.ld{width:8px;height:8px;border-radius:50%}
+.gw{padding:6px;height:100%;overflow-y:auto}
+.tt{width:100%;border-collapse:collapse;font-size:10px}
+.tt th{padding:4px;text-align:center;background:#1c2128;color:var(--cy);font-weight:700;border:1px solid var(--bd);position:sticky;top:0;z-index:2;font-size:10px}
+.tt td{border:1px solid var(--bd);height:26px;vertical-align:middle;text-align:center;transition:background .3s}
+.tt td.sl{background:#1c2128;color:var(--mt);font-size:8px;font-family:'JetBrains Mono',monospace;padding:2px 3px;white-space:nowrap;width:78px}
+.ci{padding:1px 3px;border-radius:3px;font-weight:700;font-size:8px;animation:cin .3s ease;display:inline-block;margin:1px}
+.cl{background:rgba(188,140,255,.25);color:var(--pu);border:1px solid #bc8cff44}
+.cc{background:rgba(88,166,255,.2);color:var(--cy);border:1px solid #58a6ff44}
+.cx{animation:cout .3s ease forwards}
+.cf{animation:cfl .6s ease}
+@keyframes cin{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:scale(1)}}
+@keyframes cout{from{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(.6)}}
+@keyframes cfl{0%{background:rgba(227,160,8,.5)}100%{background:transparent}}
+.sb{border-top:1px solid var(--bd);background:var(--sf);display:flex;align-items:stretch;gap:12px;min-height:72px;padding:6px 16px;flex-shrink:0}
+.sn{font-size:22px;font-weight:700;color:var(--cy);font-family:'JetBrains Mono',monospace;min-width:40px}
+.so{font-size:10px;color:var(--mt)}
+.sd{flex:1;display:flex;flex-direction:column;justify-content:center;gap:2px}
+.stl{font-size:12px;font-weight:600}
+.sds{font-size:11px;color:var(--mt);line-height:1.3}
+.sb.bf{animation:bf .6s ease}
+@keyframes bf{0%,100%{background:var(--sf)}50%{background:rgba(227,160,8,.2)}}
+.ct{border-top:1px solid var(--bd);background:var(--bg);padding:6px 16px;display:flex;align-items:center;gap:9px;flex-shrink:0}
+.cb{display:flex;align-items:center;gap:4px;padding:5px 12px;border-radius:7px;border:1px solid var(--bd);background:var(--sf);color:var(--tx);cursor:pointer;font-size:12px;font-family:inherit;font-weight:500;transition:all .2s}
+.cb:hover{border-color:var(--cy);color:var(--cy)}.cb.p{background:var(--cy);color:#000;border-color:var(--cy)}.cb:disabled{opacity:.3;cursor:not-allowed}
+.sw{display:flex;align-items:center;gap:6px;margin-left:auto;font-size:12px;color:var(--mt)}
+input[type=range]{accent-color:var(--cy);width:70px}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:var(--bd);border-radius:3px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><div class="logo-icon">🔁</div><h1>Timetable <span>Backtracking</span> Visualizer — DAA Lab</h1></div>
+  <div style="display:flex;align-items:center;gap:10px">
+    <span class="badge" style="background:var(--orb);color:var(--or);border-color:#e3a00844">DEMO MODE: Labs → Monday (15 Backtracks!)</span>
+    <span class="badge" style="background:var(--gnb);color:var(--gn);border-color:#3fb95044">30 Sessions • 586 Nodes</span>
+  </div>
+</header>
+<div class="app">
+<div class="pb"><div class="pf" id="pf"></div></div>
+<div class="main">
+  <div class="pl">
+    <div class="ph">
+      <span class="pt">State-Space Tree (Real Algorithm Output)</span>
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="nc">
+          <span class="cp cg" id="ng">🟢 0</span>
+          <span class="cp cr" id="nr">🔴 0</span>
+          <span class="cp co" id="no">🟠 0</span>
+        </div>
+        <div class="lg">
+          <div class="li"><div class="ld" style="background:#17a2b8"></div>Start</div>
+          <div class="li"><div class="ld" style="background:#ffc107"></div>Course</div>
+          <div class="li"><div class="ld" style="background:#28a745"></div>Commit</div>
+          <div class="li"><div class="ld" style="background:#dc3545"></div>Conflict</div>
+          <div class="li"><div class="ld" style="background:#fd7e14"></div>Backtrack!</div>
+        </div>
+      </div>
+    </div>
+    <div id="tc"></div>
+  </div>
+  <div class="pr">
+    <div style="flex:3;border-bottom:1px solid var(--bd);display:flex;flex-direction:column;overflow:hidden">
+      <div class="ph"><span class="pt">Weekly Timetable — B.Tech CS Sem 5</span>
+        <span style="font-size:11px;color:var(--mt)" id="sc">0 / 30 sessions</span></div>
+      <div style="flex:1;overflow:auto"><div class="gw"><table class="tt"><thead><tr>
+        <th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th>
+      </tr></thead><tbody id="gb"></tbody></table></div></div>
+    </div>
+    <div class="sb" id="sb">
+      <div style="display:flex;flex-direction:column;justify-content:center;flex-shrink:0">
+        <div class="sn" id="sn">0</div><div class="so" id="sf">/ 586</div>
+      </div>
+      <div style="width:1px;background:var(--bd);flex-shrink:0"></div>
+      <div class="sd">
+        <div class="stl" id="st">Press ▶ Play or → Next to step through</div>
+        <div class="sds" id="ss">This is the REAL output from your backtracking algorithm (backtracking.py) running with DEMO MODE enabled. 30 sessions, 586 tree nodes, 15 backtracks.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ct">
+  <button class="cb" onclick="doReset()">⏮ Reset</button>
+  <button class="cb" id="bp" onclick="stepB()" disabled>← Prev</button>
+  <button class="cb p" id="by" onclick="togPlay()">▶ Play</button>
+  <button class="cb" id="bn" onclick="stepF()">Next →</button>
+  <button class="cb" onclick="skipTo()" title="Jump to first backtrack">⏭ Skip to Backtrack</button>
+  <div class="sw">Speed:<input type="range" id="sp" min="10" max="500" value="80" step="10" oninput="updSpd(this.value)"><span id="sl">Fast</span></div>
+</div>
+</div>
+
+<script>
+// Grid time slots
+const SLOTS=[
+  {k:'08-09',l:'08–09'},{k:'09-10',l:'09–10'},{k:'10-11',l:'10–11'},{k:'11-12',l:'11–12'},
+  {k:'13-14',l:'13–14'},{k:'14-15',l:'14–15'},{k:'15-16',l:'15–16'},{k:'16-17',l:'16–17'},
+];
+const LABS=[{k:'08-10',l:'08–10 Lab'},{k:'10-12',l:'10–12 Lab'},{k:'13-15',l:'13–15 Lab'},{k:'15-17',l:'15–17 Lab'}];
+const ALL_ROWS=[
+  {k:'08-10',l:'08:00–10:00',lab:1},{k:'08-09',l:'08:00–09:00',lab:0},{k:'09-10',l:'09:00–10:00',lab:0},
+  {k:'10-12',l:'10:00–12:00',lab:1},{k:'10-11',l:'10:00–11:00',lab:0},{k:'11-12',l:'11:00–12:00',lab:0},
+  {k:'13-15',l:'13:00–15:00',lab:1},{k:'13-14',l:'13:00–14:00',lab:0},{k:'14-15',l:'14:00–15:00',lab:0},
+  {k:'15-17',l:'15:00–17:00',lab:1},{k:'15-16',l:'15:00–16:00',lab:0},{k:'16-17',l:'16:00–17:00',lab:0},
+];
+const DS=['Monday','Tuesday','Wednesday','Thursday','Friday'];
+const D_SHORT={'Monday':'Mon','Tuesday':'Tue','Wednesday':'Wed','Thursday':'Thu','Friday':'Fri'};
+
+function tKey(ts,te){return ts.replace(':','')+'-'+te.replace(':','').substring(0,2)}
+function gridKey(ts,te){
+  const m={'08:00-09:00':'08-09','09:00-10:00':'09-10','10:00-11:00':'10-11','11:00-12:00':'11-12',
+           '13:00-14:00':'13-14','14:00-15:00':'14-15','15:00-16:00':'15-16','16:00-17:00':'16-17',
+           '08:00-10:00':'08-10','10:00-12:00':'10-12','13:00-15:00':'13-15','15:00-17:00':'15-17'};
+  return m[ts+'-'+te]||ts.replace(':','')+te.replace(':','');
+}
+
+function bGrid(){
+  const b=document.getElementById('gb');b.innerHTML='';
+  ALL_ROWS.forEach(r=>{
+    const tr=document.createElement('tr');
+    if(r.lab)tr.style.background='rgba(188,140,255,.04)';
+    tr.innerHTML=`<td class="sl">${r.l}</td>`+DS.map(d=>`<td id="c-${d}-${r.k}"></td>`).join('');
+    b.appendChild(tr);
+  });
+}
+
+function addCell(day,ts,te,course,stype){
+  const k=gridKey(ts,te);
+  const c=document.getElementById(`c-${day}-${k}`);if(!c)return;
+  const v=document.createElement('div');
+  v.className='ci '+(stype==='Lab'?'cl':'cc');
+  v.textContent=course;
+  v.dataset.course=course;v.dataset.ts=ts;v.dataset.te=te;
+  c.appendChild(v);
+}
+
+function rmCell(day,ts,te,course){
+  const k=gridKey(ts,te);
+  const c=document.getElementById(`c-${day}-${k}`);if(!c)return;
+  const els=c.querySelectorAll('.ci');
+  for(let e of els){
+    if(e.dataset.course===course&&e.dataset.ts===ts){
+      e.classList.add('cx');
+      setTimeout(()=>{e.remove();c.classList.add('cf');setTimeout(()=>c.classList.remove('cf'),600)},300);
+      return;
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════
+// LOAD REAL TREE DATA (embedded from generate_tree.py)
+// ═══════════════════════════════════════════════════
+let TREE_DATA = null;
+let nDS,eDS,net;
+
+function iNet(){
+  nDS=new vis.DataSet([]);eDS=new vis.DataSet([]);
+  net=new vis.Network(document.getElementById('tc'),{nodes:nDS,edges:eDS},{
+    layout:{hierarchical:{enabled:true,direction:'UD',sortMethod:'directed',levelSeparation:55,nodeSpacing:40,treeSpacing:60}},
+    nodes:{shape:'ellipse',size:14,font:{size:8,face:'Inter',multi:true},borderWidth:1,shadow:false},
+    edges:{arrows:{to:{enabled:true,scaleFactor:.3}},color:{color:'#4d5566'},smooth:{type:'cubicBezier',forceDirection:'vertical'},width:1},
+    physics:{enabled:false},interaction:{zoomView:true,dragView:true}
+  });
+}
+
+// Build step list: each node+edge is one step
+let steps=[];
+let gridEvtIdx=0;
+
+function buildSteps(){
+  steps=[];
+  gridEvtIdx=0;
+  if(!TREE_DATA)return;
+  const nodes=TREE_DATA.nodes;
+  const edges=TREE_DATA.edges;
+  const gridEvts=TREE_DATA.grid_events;
+
+  // Map edge index by "to" node
+  const edgeByTo={};
+  edges.forEach((e,i)=>edgeByTo[e.to]=i);
+
+  // Build: for each node (skip root which is step 0), create a step
+  for(let i=0;i<nodes.length;i++){
+    const n=nodes[i];
+    const edgeIdx=edgeByTo[n.id];
+    const edge=edgeIdx!==undefined?edges[edgeIdx]:null;
+    // Find grid event for this step
+    let ge=null;
+    if(n.color==='#28a745'){// green = commit
+      // Find next "add" grid event
+      for(let j=gridEvtIdx;j<gridEvts.length;j++){
+        if(gridEvts[j].action==='add'){ge=gridEvts[j];gridEvtIdx=j+1;break}
+      }
+    } else if(n.color==='#fd7e14'){// orange = backtrack
+      for(let j=gridEvtIdx;j<gridEvts.length;j++){
+        if(gridEvts[j].action==='remove'){ge=gridEvts[j];gridEvtIdx=j+1;break}
+      }
+    }
+    steps.push({node:n,edge:edge,gridEvt:ge});
+  }
+}
+
+// Playback state
+let si=-1,playing=0,tmr=null,intv=80;
+
+function stepF(){
+  if(si>=steps.length-1){if(playing)pause();return}
+  si++;
+  const s=steps[si];
+  // Add node
+  const n=s.node;
+  if(!nDS.get(n.id)){
+    nDS.add({id:n.id,label:n.label,color:{background:n.color,border:darken(n.color)},
+      font:{color:n.font?n.font.color:'#000',size:8,face:'Inter',multi:true},
+      shape:n.shape||'ellipse',size:n.shape==='box'?18:14});
+  }
+  // Add edge
+  if(s.edge&&!eDS.get(s.edge.from+'>'+s.edge.to)){
+    eDS.add({id:s.edge.from+'>'+s.edge.to,from:s.edge.from,to:s.edge.to});
+  }
+  // Grid event
+  if(s.gridEvt){
+    const g=s.gridEvt;
+    if(g.action==='add') addCell(g.day,g.ts,g.te,g.course,g.stype);
+    else rmCell(g.day,g.ts,g.te,g.course);
+  }
+  // Flash on backtrack
+  if(n.color==='#fd7e14'){
+    document.getElementById('sb').classList.remove('bf');
+    void document.getElementById('sb').offsetWidth;
+    document.getElementById('sb').classList.add('bf');
+  }
+  updUI(s);
+  // Auto-fit every 20 steps
+  if(si%20===0||si===steps.length-1) fit();
+}
+
+function stepB(){
+  if(si<0)return;
+  const s=steps[si];
+  // Undo grid
+  if(s.gridEvt){
+    const g=s.gridEvt;
+    if(g.action==='add') rmCell(g.day,g.ts,g.te,g.course);
+    else addCell(g.day,g.ts,g.te,g.course,g.stype);
+  }
+  // Remove edge
+  if(s.edge) eDS.remove(s.edge.from+'>'+s.edge.to);
+  // Remove node (only if no other edges reference it)
+  const n=s.node;
+  let hasChild=false;
+  eDS.get().forEach(e=>{if(e.from===n.id)hasChild=true});
+  if(!hasChild) nDS.remove(n.id);
+  si--;
+  if(si>=0)updUI(steps[si]);else clrUI();
+}
+
+function darken(c){
+  const m={'#17a2b8':'#0d6d7e','#ffc107':'#c79100','#28a745':'#1e7e34','#dc3545':'#a71d2a','#fd7e14':'#c56200'};
+  return m[c]||c;
+}
+
+function updUI(s){
+  document.getElementById('sn').textContent=si+1;
+  document.getElementById('sf').textContent=`/ ${steps.length}`;
+  document.getElementById('pf').style.width=`${((si+1)/steps.length)*100}%`;
+  document.getElementById('bp').disabled=(si<=0);
+  document.getElementById('bn').disabled=(si>=steps.length-1);
+  const n=s.node;
+  let title='',desc='';
+  if(n.color==='#17a2b8'){title='🏁 Algorithm Start';desc='Root node: B.Tech CS, Sem 5. 30 sessions to schedule (10 labs + 20 lectures).';}
+  else if(n.color==='#ffc107'){title='📋 '+n.label.replace('\n',' ');desc='Exploring slot domain for this course session. Labs try 4 two-hour slots, lectures try 8 one-hour slots.';}
+  else if(n.color==='#28a745'){
+    title='✅ Committed: '+n.label.replace('\n',' ');
+    desc=s.gridEvt?`Placed ${s.gridEvt.course} (${s.gridEvt.stype}) on ${s.gridEvt.day} ${s.gridEvt.ts}-${s.gridEvt.te}. is_valid() PASSED. Recursing deeper...`:'Slot committed. Recursing to next session.';
+  }
+  else if(n.color==='#dc3545'){title='❌ Conflict: '+n.label.replace('\n',' ');desc='is_valid() returned False. Constraint violation (overlap, MAX_LABS, MAX_LECTURES, or duplicate course). Branch pruned.';}
+  else if(n.color==='#fd7e14'){
+    title='🟠 BACKTRACKED! '+n.label.replace('\n',' ');
+    desc=s.gridEvt?`assignment.pop() → ${s.gridEvt.course} REMOVED from ${s.gridEvt.day} ${s.gridEvt.ts}-${s.gridEvt.te}. Grid cell disappears! Trying next slot...`:'Dead end reached. assignment.pop() executed. Previous choice undone.';
+  }
+  document.getElementById('st').textContent=title;
+  document.getElementById('ss').textContent=desc;
+  // Counts
+  let g=0,r=0,o=0;
+  nDS.get().forEach(nd=>{
+    const bg=nd.color&&nd.color.background;
+    if(bg==='#28a745')g++;else if(bg==='#dc3545')r++;else if(bg==='#fd7e14')o++;
+  });
+  document.getElementById('ng').textContent=`🟢 ${g}`;
+  document.getElementById('nr').textContent=`🔴 ${r}`;
+  document.getElementById('no').textContent=`🟠 ${o}`;
+  const p=document.querySelectorAll('.ci:not(.cx)').length;
+  document.getElementById('sc').textContent=`${p} / 30 sessions`;
+}
+
+function clrUI(){
+  document.getElementById('sn').textContent='0';
+  document.getElementById('sf').textContent=`/ ${steps.length}`;
+  document.getElementById('st').textContent='Press ▶ Play or → Next to step through';
+  document.getElementById('ss').textContent='Real output from backtracking.py with DEMO MODE. 586 nodes, 15 backtracks.';
+  document.getElementById('pf').style.width='0%';
+  document.getElementById('bp').disabled=1;document.getElementById('bn').disabled=0;
+  document.getElementById('ng').textContent='🟢 0';document.getElementById('nr').textContent='🔴 0';document.getElementById('no').textContent='🟠 0';
+  document.getElementById('sc').textContent='0 / 30 sessions';
+}
+
+function fit(){if(nDS.length)setTimeout(()=>net.fit({animation:{duration:300,easingFunction:'easeInOutQuad'}}),50)}
+function doReset(){pause();nDS.clear();eDS.clear();bGrid();si=-1;gridEvtIdx=0;buildSteps();clrUI()}
+function togPlay(){if(playing)pause();else play()}
+function play(){playing=1;document.getElementById('by').textContent='⏸ Pause';document.getElementById('by').className='cb';
+  tmr=setInterval(()=>{if(si>=steps.length-1){pause();return}stepF()},intv);}
+function pause(){playing=0;document.getElementById('by').textContent='▶ Play';document.getElementById('by').className='cb p';
+  if(tmr){clearInterval(tmr);tmr=null}}
+function updSpd(v){intv=+v;document.getElementById('sl').textContent=intv<=50?'Fastest':intv<=100?'Fast':intv<=200?'Medium':'Slow';if(playing){pause();play()}}
+function skipTo(){
+  pause();
+  // Find first backtrack node
+  while(si<steps.length-1){
+    si++;
+    const s=steps[si];
+    const n=s.node;
+    if(!nDS.get(n.id)){
+      nDS.add({id:n.id,label:n.label,color:{background:n.color,border:darken(n.color)},
+        font:{color:n.font?n.font.color:'#000',size:8,face:'Inter',multi:true},
+        shape:n.shape||'ellipse',size:n.shape==='box'?18:14});
+    }
+    if(s.edge&&!eDS.get(s.edge.from+'>'+s.edge.to))
+      eDS.add({id:s.edge.from+'>'+s.edge.to,from:s.edge.from,to:s.edge.to});
+    if(s.gridEvt){
+      const g=s.gridEvt;
+      if(g.action==='add')addCell(g.day,g.ts,g.te,g.course,g.stype);
+      else rmCell(g.day,g.ts,g.te,g.course);
+    }
+    if(n.color==='#fd7e14'){updUI(s);fit();return;}
+  }
+  updUI(steps[si]);fit();
+}
+
+// INIT
+iNet();bGrid();
+
+// Load tree data
+fetch('tree_data.json').then(r=>r.json()).then(data=>{
+  TREE_DATA=data;
+  buildSteps();
+  clrUI();
+  console.log(`Loaded ${data.nodes.length} nodes, ${data.edges.length} edges, ${data.grid_events.length} grid events`);
+}).catch(e=>{
+  // Fallback: try to load from embedded data
+  console.error('Could not load tree_data.json:',e);
+  document.getElementById('st').textContent='⚠️ Could not load tree_data.json';
+  document.getElementById('ss').textContent='Make sure to run: python3 generate_tree.py first, then open this file via a local HTTP server (e.g., python3 -m http.server 8080)';
+});
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight')stepF();
+  if(e.key==='ArrowLeft')stepB();
+  if(e.key===' '){e.preventDefault();togPlay()}
+  if(e.key.toLowerCase()==='r')doReset();
+});
+</script>
+</body>
+</html>
